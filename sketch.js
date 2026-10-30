@@ -1,17 +1,17 @@
 let webcam;
-let img;
-let sound;
+//let img;
+//let sound;
 let previousButtons =[];
 
-function preload(){
-img = loadImage('/v3/BG Small.jpeg');
-sound = loadSound('/sound/choice.wav');
+//function preload(){
+//img = loadImage('/v3/BG Small.jpeg');
+//sound = loadSound('/sound/choice.wav');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(220);
-  image(img,windowWidth,windowHeight);
+  //image(img,windowWidth,windowHeight);
   //sound = loadSound('media/loop.mp3');
   //sound = await loadSound('/sound/choice.wav');
   webcam = createCapture(VIDEO);
