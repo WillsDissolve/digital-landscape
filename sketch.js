@@ -22,10 +22,6 @@ function setup() {
   strokeWeight(20);
 }
 
-//function preload(){
-  //background = loadImage("BG.JPG");
-//}
-
 function draw(){ 
   //background("BG.JPG");
 push();
